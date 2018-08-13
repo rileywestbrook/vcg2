@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0px;  /* remove scrollbar space */
+  background: transparent; 
+}
+
+html,
+body {
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  color: #203648;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.row {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 80px 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 200%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 130%;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 110%;
+}
+
+/* ----------------------------------------------- */
+/* HEADER */
+/* ----------------------------------------------- */
+
+header {
+  background: url("../img/firepit1.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+nav {
+  margin: 0 auto;
+}
+
+nav .row {
+  margin: 0 auto;
+}
+
+header a:link,
+header a:visited {
+  color: #fffdee;
+  text-decoration: none;
+  padding-bottom: 10px;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: border-bottom 0.2s, color 0.2s;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+
+header a:hover,
+header a:active {
+  color: #888;
+  border-bottom: 2px solid #fff;
+}
+
+.hero {
+ display: block;
+ margin: 0 auto;
+}
+
+.vcg-logo {
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  height: 500px;
+  position: absolute;
+}
+
+/* ----------------------------------------------- */
+/* BIO PARAGRAPH */
+/* ----------------------------------------------- */
+
+.long-copy {
+  width: 70%;
+  margin-left: 15%;
+  line-height: 2.2rem;
+  font-weight: 600;
+  font-size: 130%;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+/* ----------------------------------------------- */
+/* Boxes */
+/* ----------------------------------------------- */
+
+#boxes .container-boxes:before,
+#boxes .container-boxes:after {
+  display: none;
+}
+
+.container-boxes {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 110px;
+  overflow: hidden;
+}
+
+#boxes {
+  background-color: rgb(248, 248, 248);
+  overflow: hidden;
+}
+
+#boxes .box p {
+  width: 90%;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+#boxes .box {
+  text-align: center;
+  padding: 10px;
+}
+
+#boxes .box img {
+  width: 300px;
+}
+
+/* ----------------------------------------------- */
+/* HISTORY */
+/* ----------------------------------------------- */
+
+#history h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#paragraph-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#paragraph-columns p {
+  font-size: 90%;
+  line-height: 2.2rem;
+}
+
+#paragraph-columns #formerly {
+  padding-right: 30px;
+}
+
+#paragraph-columns #mill-1 {
+  padding-left: 30px;
+}
+
+/* ----------------------------------------------- */
+/* SLIDESHOW */
+/* ----------------------------------------------- */
+
+#slideshow {
+  background-color: white;
+  overflow: hidden;
+}
+
+#slider,
+.wrap,
+.slide-content {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.wrap {
+  position: relative;
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide1 {
+  background-image: url("../img/waterfall1.jpg");
+}
+.slide2 {
+  background-image: url("../img/waterfall.jpg");
+}
+.slide3 {
+  background-image: url("../img/brickbefore.jpg");
+}
+.slide4 {
+  background-image: url("../img/brickafter.jpg");
+}
+.slide5 {
+  background-image: url("../img/chapel.jpg");
+}
+.slide6 {
+  background-image: url("../img/chapel1.jpg");
+}
+.slide7 {
+  background-image: url("../img/firepit.jpg");
+}
+.slide8 {
+  background-image: url("../img/woodwall.jpg");
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slide-content span {
+  font-size: 5rem;
+  color: #fff;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  color: white;
+  border-color: white;
+  font-weight: light;
+}
+
+.clear {
+  clear: both;
+}
+
+#arrow-left {
+  left: 0;
+  padding-left: 10px;
+  font-size: 100px;
+  z-index: 1000;
+}
+
+#arrow-right {
+  right: 0;
+  padding-right: 10px;
+  font-size: 100px;
+}
+
+/* ----------------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------------- */
+
+footer {
+  background-color: #203648;
+  height: 500px;
+  color: #fffdee;
+  padding-top: 80px;
+  overflow: hidden;
+}
+
+footer .icon {
+  font-size: 60px;
+}
+
+footer .row:before {
+  display: none;
+}
+
+footer h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+footer p {
+  line-height: 2rem;
+}
+
+footer a {
+  color: #fffdee;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-contact {
+  width: 800px;
+}
+
+.footer-address {
+  margin: 0 auto;
+  float: left;
+}
+
+.footer-email {
+  margin: 0 auto;
+  float: right;
+}
+
+footer i,
+footer p {
+  float: left;
+}
+
+.footer-address p {
+  padding-top: 18px;
+  padding-left: 60px;
+  text-align: center;
+}
+
+.footer-email p {
+  padding-top: 18px;
+  padding-left: 60px;
+}
+
+.footer-line {
+  width: 400px;
+  height: 1px;
+  background-color: #fffdee;
+  margin: 80px auto 0 auto;
+}

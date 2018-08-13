@@ -1,0 +1,244 @@
+@media only screen and (max-width: 1280px) {
+  #history #formerly {
+    margin-left: 7%;
+  }
+  #history #mill-1 {
+    margin-right: 7%;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  #slideshow .row {
+    width: 1000px;
+  }
+  #boxes .row {
+    width: 1000px;
+    grid-gap: 90px;
+  }
+  #boxes .box img {
+    margin-left: -20px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #slideshow .row,
+  .wrap,
+  .slide-content {
+    width: 800px;
+    height: 400px;
+  }
+  #boxes .row {
+    width: 800px;
+    grid-gap: 70px;
+  }
+  #boxes .box img {
+    margin-left: -50px;
+  }
+  #boxes .box h2 {
+    font-size: 120%;
+  }
+  #boxes .box p {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  #paragraph-columns {
+    grid-template-columns: none;
+  }
+  #history #paragraph-columns #formerly,
+  #history #paragraph-columns #mill-1 {
+    padding: 0;
+    margin: 10px 9%;;
+  }
+  footer .footer-address,
+  footer .footer-email {
+    float: none;
+    display: table;
+  }
+
+  footer .footer-address {
+    margin-bottom: 20px;
+  }
+
+  footer .footer-email p {
+    padding-left: 82px;
+  }
+
+  footer .footer-address .ion-md-home {
+    margin-right: 13px;
+  }
+  footer .footer-social {
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .long-copy {
+    font-size: 85%;
+    margin: 0 auto;
+    padding: 0 30px;
+    width: 100%;
+  }
+  .vcg-logo {
+    height: 400px;
+  }
+  #slideshow,
+  #slideshow .row,
+  #slideshow .wrap,
+  #slider,
+  #slide-content {
+    width: 100%;
+  }
+  #paragraph-columns p {
+    font-size: 70%;
+    padding: 0;
+    margin: 0;
+  }
+  footer .row {
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+  footer {
+    height: 85vh;
+  }
+  footer h2 {
+    font-size: 110%;
+    padding: 0 5%;
+  }
+  footer .footer-contact i,
+  footer .footer-social i {
+    font-size: 40px;
+  }
+  .footer-address p {
+    padding-left: 30px;
+    font-size: 80%;
+  }
+  footer .footer-email p {
+    padding-top: 5px;
+    padding-left: 40px;
+    font-size: 80%
+  }
+}
+@media only screen and (max-width: 775px) {
+  .container-boxes {
+    grid-template-columns: none;
+    grid-gap: 0;
+  }
+  #boxes .row {
+    width: auto;
+  }
+  #boxes .box img {
+    margin-left: 0px;
+  }
+  #boxes .box p {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #slideshow .row,
+  .wrap,
+  .slide-content {
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .vcg-logo {
+    height: 300px;
+  }
+  #slideshow .row,
+  .wrap,
+  .slide-content {
+    height: 300px;
+  }
+  #arrow-left,
+  #arrow-right {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  section {
+    padding: 50px 0px;
+  }
+  .long-copy {
+    line-height: 1.7rem;
+  }
+  #slideshow {
+    padding-top: 0;
+    padding-bottom: 1px;
+  }
+  #paragraph-columns p {
+    line-height: 1.7rem;
+  }
+  #history #paragraph-columns #formerly,
+  #history #paragraph-columns #mill-1 {
+    padding: 0;
+    margin: 0px 5%;;
+  }
+  #boxes .box h2 {
+    font-size: 100%;
+  }
+  #boxes .box p {
+    width: 300px;
+  }
+  #boxes .box img {
+    width: 250px;
+  }
+  #slideshow .row,
+  .wrap,
+  .slide-content {
+    height: 275px;
+  }
+  footer {
+    height: 450px;
+  }
+  .footer-line {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .vcg-logo {
+    height: 250px;
+  }
+  #paragraph-columns p {
+    line-height: 1.5rem;
+  }
+  #slideshow .row,
+  .wrap,
+  .slide-content {
+    height: 220px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .long-copy {
+    font-size: 75%;
+    margin: 0 auto;
+    padding: 0 5%;
+    line-height: 1.5rem;
+  }
+  #slideshow .row,
+  .wrap,
+  .slide-content {
+    height: 200px;
+  }
+  footer {
+    height: 450px;
+  }
+  footer h2 {
+    font-size: 100%;
+  }
+  .footer-address p {
+    padding-left: 20px;
+    font-size: 70%;
+  }
+  footer .footer-email p {
+    padding-top: 5px;
+    padding-left: 30px;
+    font-size: 70%
+  }
+}
